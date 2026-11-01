@@ -1,0 +1,22 @@
+{
+  "name": "helpdesk-issue-tracking-api",
+  "version": "1.0.0",
+  "description": "Helpdesk and Issue Tracking REST API portfolio project",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": { "nodemon": "^3.1.7" }
+}
